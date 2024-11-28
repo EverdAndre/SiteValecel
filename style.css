@@ -1,4 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+@import url(propriedades.css);
+
 
 * {
     margin: 0;
@@ -18,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100vw;
+    /* width: 100vw; */
     height: 50vh;
     background-image: url('imagens/plano_de_fundo.jpg');
     background-size: cover;
@@ -32,7 +34,6 @@
 
 .frame_padrao_pequeno {
     height: 2rem;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,12 +64,16 @@
 }
 
 .servicos_produtos_item {
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 #servicos {
     border-right: black solid 1px;
     
+}
+
+#servicos, #produtos {
+    display: grid;
 }
 
 form {
@@ -87,7 +92,7 @@ form {
 }
 
 #contatos {
-    background-color: grey;
+    background-color: var(--cor-de-fundo);
     
     display: flex;
     gap: 2rem;
@@ -95,14 +100,20 @@ form {
     justify-content: center;
     align-items: center;
     height: 100px;
-   
+
+
 }
 
 footer {
-    margin: 1rem;
+    background-color: var(--cor-de-fundo);
+    padding: 1rem;
+    padding-top: 1.5rem;
      display: flex;
      justify-content: space-between;
      font-size: 14px;
+     box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    
+
 
      i {
         font-size: 24px;
