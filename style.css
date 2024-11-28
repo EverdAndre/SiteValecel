@@ -22,7 +22,7 @@
     align-items: flex-start;
     /* width: 100vw; */
     height: 50vh;
-    background-image: url('imagens/plano_de_fundo.jpg');
+    background-image: url('imagens/logos/plano_de_fundo.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -40,6 +40,10 @@
 
 }
 
+#produtos_em_destaque {
+    background-color: grey;    
+}
+
 #servicos_produtos_title {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -50,10 +54,7 @@
     
 }
 
-#produtos_em_destaque {
-    height: 250px;
-    background-color: grey;
-}
+
 
 #servicos_produtos {
    display: grid;
