@@ -41,7 +41,8 @@
 }
 
 #produtos_em_destaque {
-    background-color: grey;    
+    background-color: grey;
+    min-height: 10vh;
 }
 
 #servicos_produtos_title {
