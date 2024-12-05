@@ -20,8 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* width: 100vw; */
-    height: 50vh;
+    height: auto;
     background-image: url('imagens/logos/plano_de_fundo.jpg');
     background-size: cover;
     background-position: center;
@@ -40,9 +39,8 @@
 
 }
 
-#produtos_em_destaque {
-    background-color: grey;
-    min-height: 10vh;
+.carousel-control-prev {
+    color: black;
 }
 
 #servicos_produtos_title {
