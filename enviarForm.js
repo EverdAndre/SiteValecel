@@ -13,7 +13,7 @@ document.getElementById("formOrcamento").addEventListener("submit", function(eve
         alert("Por favor, preencha todos os campos antes de enviar.");
         return;
     }
-
+//testegit
     // Valida o email
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
